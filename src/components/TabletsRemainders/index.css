@@ -1,0 +1,15 @@
+.tablet-remainder-container {
+  background-image: linear-gradient(#d9d0b8, #b3a788, #80724b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-input {
+  border-width: 0;
+  height: 40px;
+  width: 100px;
+  margin-right: 40px;
+  font-size: 20px;
+}

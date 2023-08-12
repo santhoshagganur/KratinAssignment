@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import Above65 from './components/Above65'
 import OnlineLabs from './components/OnlineLabs'
+import TabletsRemainders from './components/TabletsRemainders'
 import NotFound from './components/NotFound'
 
 import './App.css'
@@ -13,6 +14,7 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route exact path="/above65" component={Above65} />
       <Route exact path="/OnlineLabs" component={OnlineLabs} />
+      <Route exact path="/TabletRemainder" component={TabletsRemainders} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
